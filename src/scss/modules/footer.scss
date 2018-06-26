@@ -1,0 +1,16 @@
+.footer{
+  padding: 20px 0;
+  background: #1e0c05;
+}
+.footer__wrapp{
+  max-width: 865px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.footer__img{
+  margin: 15px;
+}

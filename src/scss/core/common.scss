@@ -168,6 +168,26 @@ h4{
   display: none;
 }
 
+.wrapp{
+  position: absolute;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
 .section{
   position: relative;
 }
+.container-wr {
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+.flex-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px
+}
+
+

@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href="css/style.min.css" rel="stylesheet">
     <script src="js/app.min.js"></script>
+    <script src="js/slick.js"></script>
 </head>
 <body>
 <main class="wrapp">
@@ -22,12 +24,10 @@
                 TO HIT THE <span class="jackpot">Jackpot</span>
             </div>
 
-            <div id="jackpot-count" class="count-wrapp">
-
-            </div>
+            <div id="jackpot-count" class="count-wrapp"></div>
             <div class="block-txt">
                 <div class="gold-txt">300%</div>
-                Welcome Bonus up to $3000
+                <div>Welcome Bonus up to $3000</div>
             </div>
             <div class="wr-code">
                 <span class="code-txt">
@@ -50,19 +50,160 @@
         </div>
     </section>
     <section class="section-slider">
-        <div class="wr-sectio-slider">
-            <div class="section-cap">Featured Games</div>
-            <div class="slider-gallery">
-                <div class="item-slide">
-                    <div class="item-slide_overlay"></div>
-                    <a href="" class="btn-white">
-                        Play now
-                    </a>
-                </div>
-
+        <div class="section-cap">Featured Games</div>
+        <div class="slider-container">
+        <div class="slider-gallery">
+            <div class="item-slide">
+                <img src="images/game1.png" alt="">
+                <a href="" class="btn-white">
+                    Play now
+                </a>
+                <div class="item-slide_overlay"></div>
+            </div>
+            <div class="item-slide">
+                <img src="images/game2.png" alt="">
+                <div class="item-slide_overlay"></div>
+                <a href="" class="btn-white">
+                    Play now
+                </a>
+            </div>
+            <div class="item-slide">
+                <img src="images/game3.png" alt="">
+                <div class="item-slide_overlay"></div>
+                <a href="" class="btn-white">
+                    Play now
+                </a>
+            </div>
+            <div class="item-slide">
+                <img src="images/game4.png" alt="">
+                <div class="item-slide_overlay"></div>
+                <a href="" class="btn-white">
+                    Play now
+                </a>
+            </div>
+            <div class="item-slide">
+                <img src="images/game2.png" alt="">
+                <div class="item-slide_overlay"></div>
+                <a href="" class="btn-white">
+                    Play now
+                </a>
             </div>
         </div>
+        </div>
     </section>
+    <div class="info-wrapper animation-element in-view">
+        <div class="container-wr">
+            <div class="flex-row">
+                <div class="info">
+                    <div class="info__block">
+                        <a class="info__img" href="/us/promotions/">
+                            <img src="images/trophy.png" alt="">
+                        </a>
+                        <a class="info__text" href="/us/promotions/">
+                            <div class="info__title">
+                            <span class="info__mob-img">
+                                    <img src="images/trophy.png" alt="">
+                            </span>
+                                <span>Promotions</span>
+                            </div>
+                            <div class="info__desc">We love to reward our players, putting player’s experience up as our
+                                top priority.
+                                That is why players can enjoy bonuses and rewards each and every day at Cherry Gold.
+                            </div>
+                        </a>
+                    </div>
+                    <div class="info__block">
+                        <a class="info__img" href="/us/banking/">
+                            <img src="images/ok.png" alt="">
+                        </a>
+                        <a class="info__text" href="/us/banking/">
+                            <div class="info__title">
+                                <span class="info__mob-img">
+                                    <img src="images/ok.png" alt="">
+                                </span>
+                                <span>Fast Withdrawals</span>
+                            </div>
+                            <div class="info__desc">We have added a wide variety of the best payment methods available
+                                to make both
+                                deposit and withdrawal process easier and faster than ever to ensure you’ll enjoy your
+                                winnings
+                                as fast as possible.
+                            </div>
+                        </a>
+                    </div>
+                    <div class="info__block">
+                        <a class="info__img" href="/us/contact/">
+                            <img src="images/support.png" alt="">
+                        </a>
+                        <a class="info__text" href="/us/contact/">
+                            <div class="info__title">
+                                <span class="info__mob-img">
+                                     <img src="images/support.png" alt="">
+                                </span>
+                                <span>Live Support</span>
+                            </div>
+                            <div class="info__desc">With our support team available for you at all times,
+                                all our support coordinators are selected and trained specifically to help your needs
+                                and are here
+                                for you every day, 24/7.
+                            </div>
+                        </a>
+                    </div>
+                    <div class="info__block">
+                        <a class="info__img" href="/us/games/">
+                            <img src="images/machine.png?" alt="">
+                        </a>
+                        <a class="info__text" href="/us/games/">
+                            <div class="info__title">
+                                <span class="info__mob-img">
+                                    <img src="images/machine.png" alt="">
+                                </span>
+                                <span class="">Tremendous Game selection</span>
+                            </div>
+                            <div class="info__desc">With an enormous bundle of some of the best games available,
+                                we have gathered up the best of the best for you, all from the world’s top leading game
+                                providers.
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__wrapp">
+            <div class="footer__img">
+                <a href="">
+                    <img src="images/img_1.png" alt="">
+                </a>
+            </div>
+            <div class="footer__img">
+                <a href="">
+                    <img src="images/visa.png" alt="">
+                </a>
+            </div>
+            <div class="footer__img">
+                <a href="">
+                    <img src="images/master.png" alt="">
+                </a>
+            </div>
+            <div class="footer__img">
+                <a href="">
+                    <img src="images/btc.png" alt="">
+                </a>
+            </div>
+            <div class="footer__img">
+                <a href="">
+                    <img src="images/rtg.png" alt="">
+                </a>
+            </div>
+            <div class="footer__img">
+                <a href="">
+                    <img src="images/ssl.png" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
 </main>
 </body>
 </html>

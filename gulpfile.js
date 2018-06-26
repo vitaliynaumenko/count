@@ -29,7 +29,7 @@ gulp.task('default', ['gulp_watch']);
 
 gulp.task('gulp_watch', function () {
     gulp.watch('./src/scss/**/*.scss', ['styles']);
-    // gulp.watch('./src/ts/**/*.ts', ['scripts']);
+    gulp.watch('./src/js/**/*.js', ['scripts']);
     // gulp.watch('./src/pug/**/*.pug', ['views']);
 });
 
@@ -80,6 +80,8 @@ gulp.task('scripts', (done) => {
 
     // run webpack
     webpack(webpackConfig, onComplete);
+
+
 
 });
 
