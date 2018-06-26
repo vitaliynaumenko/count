@@ -24,9 +24,11 @@ module.exports = {
 
             new UglifyJsPlugin({
                 uglifyOptions: {
-                    compress: true,
-                    ecma: 6,
-                    mangle: true
+                    compress: false,
+                    output: {
+                        comments: false
+                    },
+                    sourceMap: false
                 },
             })
         ],
